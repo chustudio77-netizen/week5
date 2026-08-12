@@ -2,9 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
 
 @import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";   
 @import './utils/variables';
-@import "../../node_modules/bootstrap";
-@import './utils/utils';
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import './utils/utils.scss';
 
 @import './base/base.scss';
 
@@ -12,3 +13,5 @@
 @import './layout/footer.scss';
 
 @import './pages/index.scss';
+
+
